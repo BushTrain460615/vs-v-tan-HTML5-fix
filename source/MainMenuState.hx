@@ -289,7 +289,6 @@ class MainMenuState extends MusicBeatState
 						week4 = true;
 					}
 					if(FlxG.keys.justPressed.ENTER)				
-						FlxG.switchState(new FreeplayState());
 						
 				}	
 			else if (options == true)
