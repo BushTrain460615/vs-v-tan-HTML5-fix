@@ -12,6 +12,8 @@ import openfl.media.Sound;
 import flixel.system.FlxSound;
 #if sys
 import smTools.SMFile;
+#end
+#if windows
 import sys.FileSystem;
 import sys.io.File;
 #end
