@@ -263,10 +263,6 @@ class TitleState extends MusicBeatState
 
 			new FlxTimer().start(0.9, function(tmr:FlxTimer)
 				{
-					FlxG.sound.music.stop();
-					if(FlxG.save.data.slurs)
-						FlxG.switchState(new NiggerState());
-					else
 					FlxG.switchState(new MainMenuState());
 					
 				});
