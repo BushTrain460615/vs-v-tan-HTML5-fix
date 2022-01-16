@@ -289,8 +289,7 @@ class MainMenuState extends MusicBeatState
 						week4 = true;
 					}
 					if(FlxG.keys.justPressed.ENTER)				
-						
-				}	
+							
 			else if (options == true)
 				{
 					portsB.setPosition(640,80);portsB.scale.set(0.3,0.3);portsB.animation.play('options');optionsB.x = 405;
