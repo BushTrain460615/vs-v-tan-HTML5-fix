@@ -4,8 +4,10 @@ import flixel.FlxG;
 import flixel.FlxState;
 import flixel.util.FlxColor;
 import Controls.KeyboardScheme;
+#if windows
 import sys.FileSystem;
 import sys.io.File;
+#end
 import flixel.FlxObject;
 import flixel.system.FlxSound;
 import flixel.util.FlxTimer;
